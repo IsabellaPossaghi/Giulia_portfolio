@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Inconsolata", monospace;
-  color: #2b2d42;
+  color: #432818;
 }
 
 a {
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .filters a {
   text-decoration: none;
-  color: #4e2c70;
+  color: #432818;
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
@@ -131,18 +131,18 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .testimonial-wrap {
   padding: 50px 50px 80px 50px;
   background: #FAF5F3;
-  /* background-image: url("/assets/img/pat.png"); */
-  background-size: cover;
+  /* background-image: url("/assets/img/fornasetti/1.jpg");
+  background-size: cover; */
 }
 .testimonial-wrap .testimonial {
   text-align: center;
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .testimonial-wrap .testimonial img {
-  border-radius: 50%;
-  width: 120px;
-  margin: 0 auto 30px auto;
+  border-radius: 0%;
+  width: 50em;
+  margin: 0 auto 1.5em auto;
 }
 .testimonial-wrap .testimonial blockquote p {
   font-size: 20px;
@@ -233,10 +233,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .custom-progress {
   height: 7px;
-  border-radius: 0;
+  border-radius: 1;
 }
 .custom-progress .progress-bar {
-  background: #4e2c70;
+  background: #432818;
 }
 
 /* Services */
@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #D5BDAF;
+  background: #EDEDE9;
 }
 .custom-navmenu .custom-menu, .custom-navmenu .custom-menu li {
   padding: 0;
@@ -320,7 +320,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   font-size: 20px;
 }
 .custom-navmenu .custom-menu li a {
-  color: #fff;
+  color: #333d29;
   padding: 10px 0 !important;
 }
 .custom-navmenu .custom-menu li a:hover {
@@ -328,18 +328,18 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .custom-navmenu .custom-menu li.active a {
   text-decoration: none;
-  box-shadow: inset 0 -7px 0 #D5BDAF, inset 0 -9px 0 #F5EBE0;
-  color: #F5EBE0;
+  box-shadow: inset 0 -7px 0 #EDEDE9, inset 0 -9px 0 #333d29;
+  color: #333d29;
 }
 .custom-navmenu h3 {
   font-size: 20px;
-  color: #fff;
+  color: #333d29;
 }
 .custom-navmenu p {
-  color: rgba(255, 255, 255, 0.6);
+  color: #333d29;
 }
 .custom-navmenu a {
-  color: rgba(255, 255, 255, 0.7);
+  color: #333d29;
 }
 .custom-navmenu a:hover {
   color: #fff;
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .custom-navbar .navbar-brand {
   font-size: 1.7rem;
-  color: #2b2d42;
+  color: #432818;
 }
 
 /* Burger */
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   background: #f8f9fa;
   position: relative;
   text-align: center;
-  color: #2b2d42;
+  color: #432818;
 }
 .social a span {
   display: inline-block;
@@ -461,4 +461,77 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 }
 .social a:hover {
   color: #4e2c70;
+}
+
+
+/* button  */
+
+.english {
+  font-style: normal;
+  color: #432818;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.cta {
+  position: relative;
+
+  padding: 13px 22px;
+  transition: all .2s ease; }
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 28px;
+    background: #F5EBE0;
+    width: 46px;
+    height: 46px;
+    transition: all .3s ease; }
+  .cta span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    vertical-align: middle; }
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all .3s ease; }
+  .cta:hover:before {
+    width: 100%;
+    background: #F5EBE0; }
+  .cta:hover svg {
+    transform: translateX(0); }
+  .cta:active {
+    transform: scale(0.96); }
+
+  mark {
+    background-color: #F5EBE0;
+    color: #432818;
+  }
+
+  .percentage{
+    padding-left: 10px !important;
+  }
+
+  .icons {
+  width: 2.5em;
+  padding-bottom: 0.8em;
+  }
+
+.ico :hover{
+  width: 3em;
 }
