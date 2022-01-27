@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: #4e2c70;
+  color: #727d71;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
@@ -49,10 +49,10 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #4e2c70;
+  background-color: #727d71;
 }
 .filters a.active {
-  color: #4e2c70;
+  color: #727d71;
 }
 .filters a.active:before {
   content: "";
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   right: 10px;
   bottom: 0;
   height: 1px;
-  background-color: #4e2c70;
+  background-color: #727d71;
 }
 
 .item {
@@ -162,12 +162,12 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 .readmore {
   display: inline-block;
-  border: 1px solid #4e2c70;
+  border: 1px solid #727d71;
   border-radius: 20px;
   padding: 10px 15px;
   font-size: 12px;
   text-transform: uppercase;
-  color: #4e2c70;
+  color: #727d71;
   transition: 0.2s all ease;
   font-weight: 700;
 }
@@ -177,7 +177,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .readmore:hover {
   color: #fff;
   text-decoration: none;
-  background: #4e2c70;
+  background: #727d71;
 }
 
 .testimonials-slider .swiper-pagination {
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   top: 0.7rem;
   width: 10px;
   height: 2px;
-  background: #4e2c70;
+  background: #727d71;
 }
 
 .form-control {
@@ -374,7 +374,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   width: 100%;
   height: 2px;
   display: block;
-  background: #4e2c70;
+  background: #727d71;
   border-radius: 2px;
   position: absolute;
   opacity: 1;
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 }
 .footer a {
-  color: #4e2c70;
+  color: #727d71;
 }
 
 .social a {
@@ -461,7 +461,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   transform: translate(-50%, -50%);
 }
 .social a:hover {
-  color: #4e2c70;
+  color: #727d71;
 }
 
 
