@@ -536,3 +536,15 @@ a {
 .ico :hover{
   width: 3em;
 }
+
+.cover {
+  max-width: 10em;
+}
+.cover1 {
+  max-width: 6em;
+  padding-top: 2em;
+}
+
+.skill {
+  max-width: 10em;
+}
