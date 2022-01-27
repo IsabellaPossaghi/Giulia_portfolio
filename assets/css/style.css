@@ -546,5 +546,10 @@ a {
 }
 
 .skill {
-  max-width: 10em;
+  max-width: 8em;
+  padding-right: 3em;
+}
+
+.justify-content-center {
+  justify-content: center;
 }
