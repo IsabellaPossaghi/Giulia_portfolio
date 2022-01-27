@@ -342,7 +342,8 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   color: #333d29;
 }
 .custom-navmenu a:hover {
-  color: #fff;
+  color: #656d4a;
+  text-decoration: underline;
 }
 
 /* Custom Navbar */
